@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <filter id="Ellipse_45">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_45)">
+        <circle id="Ellipse_45-2" data-name="Ellipse 45" cx="25" cy="25" r="25" transform="translate(728 4027)" fill="#f6e4e5"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_32" data-name="Mask Group 32" transform="translate(-728 -4027)" clip-path="url(#clip-path)">
+    <g id="zoom" transform="translate(728 4027)">
+      <g id="Group_408" data-name="Group 408" transform="translate(11.652 11.655)">
+        <g id="Group_407" data-name="Group 407" transform="translate(0 0)">
+          <path id="Path_332" data-name="Path 332" d="M23.688,3.008A10.219,10.219,0,0,0,8.865,17.07l-.78.78a1.615,1.615,0,0,0-2.283,0h0L.473,23.178a1.615,1.615,0,0,0,0,2.283h0l.761.761a1.615,1.615,0,0,0,2.283,0l5.328-5.328a1.615,1.615,0,0,0,0-2.283h0l.78-.78A10.219,10.219,0,0,0,23.688,3.008ZM8.085,20.133,2.757,25.461a.538.538,0,0,1-.761,0L1.235,24.7a.538.538,0,0,1,0-.76l5.328-5.328a.551.551,0,0,1,.761,0l.761.762A.538.538,0,0,1,8.085,20.133Zm14.843-3.425a9.149,9.149,0,1,1,0-12.939A9.149,9.149,0,0,1,22.927,16.709Z" transform="translate(0 -0.005)" fill="#f6e4e5"/>
+        </g>
+      </g>
+      <g id="Group_410" data-name="Group 410" transform="translate(33.057 16.18)">
+        <g id="Group_409" data-name="Group 409" transform="translate(0 0)">
+          <path id="Path_333" data-name="Path 333" d="M40.851,8.48h0l-.761.761a7.005,7.005,0,0,1,0,9.895l.761.761A8.081,8.081,0,0,0,40.851,8.48Z" transform="translate(-40.09 -8.48)" fill="#f6e4e5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
